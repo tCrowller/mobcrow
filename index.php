@@ -1,3 +1,4 @@
+<?php echo ''; ?>
 <!DOCTYPE html>
 <html lang="es-MX">
 <head>
