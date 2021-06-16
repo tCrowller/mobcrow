@@ -122,6 +122,13 @@ html {
   transform: scale(1.1);
   border: solid 2px #e90b2a;
 }
+
+/* The Transformation */
+.img-hover-zoom--colorize2:hover img {
+  filter: grayscale(0);
+  transform: scale(1.05);
+  border: solid 2px #e90b2a;
+}
 @media (max-width: 767.98px) { 
     .titCabecera{
         font-size: 8vw;
@@ -174,3 +181,4 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
