@@ -123,6 +123,11 @@ html {
   border: solid 2px #e90b2a;
 }
 
+.img-hover-zoom--colorize2 img {
+  transition: transform .5s, filter .8s ease-in-out;
+  filter: grayscale(100%);
+}
+
 /* The Transformation */
 .img-hover-zoom--colorize2:hover img {
   filter: grayscale(0);
